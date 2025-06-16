@@ -1,6 +1,6 @@
-# 🎬 Recomendador de Películas
+# 🎬 Movie Recommender System
 
-Recomendador inteligente de películas según tus **gustos cinematográficos** y tu **estado de ánimo**. Desarrollado con **Python**, visualizado con **Streamlit** y listo para producción con **Docker**.
+An intelligent movie recommender based on your **cinematic preferences** and **mood**. Built with **Python**, powered by **Streamlit**, and ready for production with **Docker**.
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Online%20Demo-red?logo=streamlit)](https://streamlit.io/)
 [![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)](https://hub.docker.com/)
@@ -9,47 +9,50 @@ Recomendador inteligente de películas según tus **gustos cinematográficos** y
 
 ---
 
-## 🚀 ¿Qué hace este proyecto?
+## 🚀 What does this project do?
 
-🔎 Este recomendador:
-- Filtra películas según tus preferencias y emociones.
-- Está basado en un modelo con embeddings y búsqueda semántica.
-- Muestra las películas más parecidas con una interfaz sencilla vía Streamlit.
+🔎 This movie recommender:
+- Suggests similar movies based on your input.
+- Uses a basic content similarity model (can be extended with embeddings or FAISS).
+- Provides a clean interface via Streamlit for fast and easy interaction.
 
 ---
 
-## 🧩 Estructura del Proyecto
+## 🧩 Project Structure
 
-📁 recomendador-peliculas
+
+📁 movie-recommender
 ├── app/
-│ └── app.py # Frontend Streamlit
-├── recomendador.py # Modelo de recomendación
-├── requirements.txt # Dependencias
-└── Dockerfile (opcional) # Contenedor Docker listo para usar
-
+│ └── app.py # Streamlit frontend
+├── recomendador.py # Recommendation logic
+├── requirements.txt # Python dependencies
+└── Dockerfile (optional) # Docker container setup
 
 ---
 
-## ⚙️ Cómo ejecutar el proyecto
 
-### ✅ Localmente
+## ⚙️ How to run the project
 
-1. Instala las dependencias:
+### ✅ Locally
+
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+1. Run the App
 streamlit run app/app.py
 
 
+
 ---
 
-🧠 Autor
+🧠 Author
 👤 Carlos Onrubia
-📬 contacto: [c.onrubia11@gmail.com]
+📬 contact: [c.onrubia11@gmail.com]
 🔗 GitHub
 
 ---
 
 
 ---
-📄 Licencia
-Este proyecto está bajo la Licencia MIT.
+📄 License
+This project is licensed under the MIT License.
