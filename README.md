@@ -30,7 +30,7 @@ cd recomendador-peliculas
 pip install -r requirements.txt
 streamlit run app/app.py
 
-### 📁 Estructura del proyecto
+📁 Estructura del proyecto
 bash
 Copiar
 Editar
