@@ -1,31 +1,55 @@
 # 🎬 Recomendador de Películas
 
-[![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)](https://www.docker.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-app-red?logo=streamlit)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
+Recomendador inteligente de películas según tus **gustos cinematográficos** y tu **estado de ánimo**. Desarrollado con **Python**, visualizado con **Streamlit** y listo para producción con **Docker**.
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Online%20Demo-red?logo=streamlit)](https://streamlit.io/)
+[![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)](https://hub.docker.com/)
+[![Python](https://img.shields.io/badge/python-3.10+-yellow.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-Este proyecto es un sistema recomendador de películas, basado en tus gustos cinematográficos y estado de ánimo.
+## 🚀 ¿Qué hace este proyecto?
 
-## 🚀 ¿Qué hace?
+🔎 Este recomendador:
+- Filtra películas según tus preferencias y emociones.
+- Está basado en un modelo con embeddings y búsqueda semántica.
+- Muestra las películas más parecidas con una interfaz sencilla vía Streamlit.
 
-Recomienda películas similares a una película elegida, usando un modelo de similitud basado en contenido. Tiene una interfaz fácil de usar creada con Streamlit.
+---
 
-## 🧰 Tecnologías utilizadas
+## 🧩 Estructura del Proyecto
 
-- 🐍 Python
-- 🎈 Streamlit
-- 📦 Pandas, scikit-learn
-- 🐳 Docker
+📁 recomendador-peliculas
+├── app/
+│ └── app.py # Frontend Streamlit
+├── recomendador.py # Modelo de recomendación
+├── requirements.txt # Dependencias
+└── Dockerfile (opcional) # Contenedor Docker listo para usar
 
-## 💻 ¿Cómo ejecutarlo?
 
-### ▶️ Opción 1: Localmente
+---
 
+## ⚙️ Cómo ejecutar el proyecto
+
+### ✅ Localmente
+
+1. Instala las dependencias:
 ```bash
-git clone https://github.com/Carlos23-oss/recomendador-peliculas.git
-cd recomendador-peliculas
 pip install -r requirements.txt
 streamlit run app/app.py
+
+
+---
+
+🧠 Autor
+👤 Carlos Onrubia
+📬 contacto: [c.onrubia11@gmail.com]
+🔗 GitHub
+
+---
+
+
+---
+📄 Licencia
+Este proyecto está bajo la Licencia MIT.
